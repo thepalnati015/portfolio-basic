@@ -1,0 +1,221 @@
+#intro h1,h4,h5{
+    color: white;
+    text-align: center;
+}
+#intro{
+    padding-top: 225px; 
+    padding-bottom: 250px;
+    background: url('pic8.jpg');
+}
+
+#section1 {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 50px 0;
+}
+#section1 h1,p{
+    text-align: left;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding: 70px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+} */
+
+p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666; /* Medium text color */
+}
+
+.btn {
+    font-size: 16px;
+    background-color: #666f79;
+    color: #ffffff;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #272f38; /* Button color on hover */
+}
+#education {
+    padding-top: 50px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+#experience {
+    padding-top: 50px;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-bottom: 50px;
+}
+#skills {
+    padding-top: 50px;
+    padding-left: 170px;
+    padding-right: 170px;
+    background-color: #f9f9f9;
+    padding-bottom: 50px;
+}
+#skills h2{
+    padding-bottom: 30px;
+}
+#education h6{
+    padding-top: 30px;
+}
+#experience h6{
+    padding-top: 30px;
+}
+#Projects{
+    margin-top: 70px;
+    text-align: justify;
+}
+#Projects h1{
+    text-align: center;
+}
+
+#Applications{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 80px;
+}
+#Applications p{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+}
+#Applications img {
+    padding: 50px;
+}
+#Applications p {
+    text-align: left;
+}
+#hire{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    line-height: 35px;
+    background-image: url(pic2.jfif);
+    font-weight: bold;
+}
+#hire h1,p, button{
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.card h5{
+    padding-top: 30px;
+    text-align: center;
+}
+.card p{
+    text-align: center;
+}
+#contacts h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+   
+}
+#contacts {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+/* CSS for Skills Section */
+.skill-section {
+    margin-bottom: 30px;
+}
+
+.skill-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.skill-item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.progress {
+    height: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+/* Adjusting layout for smaller screens */
+@media (max-width: 768px) {
+    .col-lg-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+#contacts .submit-button {
+    background-color: #666f79;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contacts .submit-button:hover {
+    background-color: #272f38;
+}
+/* Social Icons */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-icons li:first-child {
+    margin-left: 0;
+}
+
+#copyright p{
+    background-color: #f0f0f0; /* Change to your desired background color */
+    text-align: center;
+
+}
+
+
